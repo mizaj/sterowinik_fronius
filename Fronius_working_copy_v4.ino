@@ -67,9 +67,9 @@ bool refreshLCD = true;         // refreshes values
 bool refreshSelection = false;  // refreshes selection (> / X)
 
 // Fronius setup
-const char *HOST = "192.168.1.15";
-const char *SSID = "FiberLink69";
-const char *PASSWORD = "Internet69";
+const char *HOST = "IP";
+const char *SSID = "SSID";
+const char *PASSWORD = "PASS";
 const long interval =
     20000;  // interval at which to get data from Fronius (milliseconds)
 unsigned long previousMillis =
